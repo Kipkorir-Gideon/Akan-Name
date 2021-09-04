@@ -11,12 +11,27 @@ a {
     text-decoration: none;
 }
 
-.nav-bar {
+.navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     position: fixed;
     width: 100%;
-    background-color: rgb(38, 70, 70);
+    background-color: rgb(183, 248, 210);
     height: 90px;
     margin-top: -2px;
+    /* padding-right: 100px;
+    padding-left: 100px; */
+}
+
+.navbar a {
+    margin-right: 15px;
+    padding: 27px;
+    color: rgb(73, 75, 75);
+}
+
+.names {
+    min-height: 300px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
 }
