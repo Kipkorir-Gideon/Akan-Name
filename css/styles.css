@@ -34,10 +34,59 @@ a {
     margin: auto;
     padding-top: 150px;
     text-align: center;
+    background-color: rgb(44, 41, 41);
+    color: white;
+}
+
+.aboutAkan{
+    padding: 40px;
+    text-align: justify;
+}
+
+.whatsAkan {
+    background-color: rgb(252, 230, 172);
 }
 
 .whatsAkan img{
     float: left;
     max-width: 600px;
     margin: 4px;
+}
+
+.yourAkan {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: justify;
+}
+
+.yourAkan p {
+    text-align: center;
+}
+
+.akan-form {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    min-width: 400px;
+}
+
+.iform {
+    width: 100%;
+    padding: 12px;
+}
+
+.submit {
+    width: 50%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    padding-top: 40px;
+    background-color: gainsboro;
 }
