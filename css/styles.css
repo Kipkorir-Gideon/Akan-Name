@@ -32,6 +32,12 @@ a {
 .names {
     min-height: 300px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
+}
+
+.whatsAkan img{
+    float: left;
+    max-width: 600px;
+    margin: 4px;
 }
