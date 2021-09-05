@@ -111,6 +111,7 @@ a {
     padding: 28px;
     min-width: 400px;
     border-radius: 10px;
+    background-color: rgb(252, 230, 172);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -126,9 +127,13 @@ label {
 }
 
 .submit {
-    width: 50%;
+    width: 100%;
     align-items: center;
     margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(60, 77, 44);
+    color: rgb(207, 204, 204);
+    border-radius: 5px;
 }
 
 #output {
