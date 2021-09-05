@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 h1, h2 {
     text-align: center;
 }
@@ -19,6 +20,8 @@ a {
     background-color: rgb(183, 248, 210);
     height: 90px;
     margin-top: -2px;
+    padding-left: 15%;
+    padding-right: 15%;
     /* padding-right: 100px;
     padding-left: 100px; */
 }
@@ -36,21 +39,45 @@ a {
     text-align: center;
     background-color: rgb(44, 41, 41);
     color: white;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .aboutAkan{
     padding: 40px;
     text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .whatsAkan {
     background-color: rgb(252, 230, 172);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.whatsAkan div {
+    display: flex;
+    background-color: azure;
+    padding: 10px;
 }
 
 .whatsAkan img{
     float: left;
-    max-width: 600px;
+    width: 500px;
     margin: 4px;
+    height: 90%;
+}
+
+@media screen and (max-width: 780px){
+    .whatsAkan div {
+        display: flex;
+        flex-direction: column;
+    }
+    .whatsAkan img {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 .yourAkan {
@@ -59,6 +86,8 @@ a {
     margin: auto;
     align-items: center;
     text-align: justify;
+    background-color: rgb(255, 231, 231);
+    padding: 50px;
 }
 
 .yourAkan p {
@@ -68,7 +97,7 @@ a {
 .akan-form {
     border-style: solid;
     border-width: 1px;
-    padding: 10px;
+    padding: 28px;
     min-width: 400px;
 }
 
