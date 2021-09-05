@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 ## Technologies/languages Used
 -HTML<br/>
 -CSS<br/>
--JAVASCRIPT
+-JAVASCRIPT<br/>
 -GITHUB<br/>
 -BOOTSTRAP
 
