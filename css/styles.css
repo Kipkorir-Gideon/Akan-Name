@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+body {
+    background-color: blanchedalmond;
+}
 
 h1, h2 {
     text-align: center;
@@ -37,17 +40,20 @@ a {
     margin: auto;
     padding-top: 150px;
     text-align: center;
-    background-color: rgb(44, 41, 41);
-    color: white;
+    /* background-color: rgb(44, 41, 41); */
+    color: rgb(78, 98, 117);
     padding-left: 15%;
     padding-right: 15%;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(73, 55, 241);
+    border-width: 2px;
+    font-size: 2em;
+    background-color: rgb(252, 230, 172);
 }
 
 .aboutAkan{
     padding: 40px;
     text-align: justify;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .whatsAkan {
@@ -57,7 +63,6 @@ a {
 }
 
 .whatsAkan div {
-    display: flex;
     background-color: azure;
     padding: 10px;
 }
@@ -80,18 +85,24 @@ a {
     }
 }
 
+#yourAkan {
+    padding: 50px;
+}
+
 .yourAkan {
     display: flex;
     flex-direction: column;
     margin: auto;
     align-items: center;
     text-align: justify;
-    background-color: rgb(255, 231, 231);
+    /* background-color: rgb(207, 187, 187); */
     padding: 50px;
+    background-color: rgb(252, 230, 172);
 }
 
 .yourAkan p {
     text-align: center;
+    font-style: italic;
 }
 
 .akan-form {
@@ -99,11 +110,19 @@ a {
     border-width: 1px;
     padding: 28px;
     min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .iform {
     width: 100%;
     padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 0;
 }
 
 .submit {
@@ -112,10 +131,22 @@ a {
     margin-top: 10px;
 }
 
+#output {
+    padding: 25px;
+    font-size: 2em;
+}
+
 .footer {
     text-align: center;
     height: 100px;
     margin: auto;
     padding-top: 40px;
     background-color: gainsboro;
+}
+
+.social {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
 }
