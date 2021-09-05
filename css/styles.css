@@ -60,6 +60,7 @@ a {
     background-color: rgb(252, 230, 172);
     padding-left: 15%;
     padding-right: 15%;
+    padding: 10px;
 }
 
 .whatsAkan div {
@@ -149,4 +150,5 @@ label {
     margin: auto;
     justify-content: space-between;
     width: 80%;
+
 }
