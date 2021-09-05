@@ -5,14 +5,17 @@ function akanNaming() {
         var dateOfBirth = birthday.split('-');
         if(dateOfBirth.length !==3) {
             alert("Invalid date!");
+            throw Error;
         }
         else if(!dateOfBirth[0].match(/^\d\d\d\d$/) || 
             !dateOfBirth[1].match(/^\d\d$/) || 
             !dateOfBirth[2].match(/^\d\d$/)){
                 alert("Invalid date!");
+                throw Error;
         }
         else if(gender.length===0){
-            alert("Please select your gender")
+            alert("Please select your gender");
+            throw Error;
         }
         else {
             document.getElementById("output").style.display = 'block';
