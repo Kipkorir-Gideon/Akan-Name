@@ -84,4 +84,5 @@ function akanNaming() {
             }
         }
     }
+    document.getElementById("output").innerHTML = akanName();
 }
