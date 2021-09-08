@@ -1,4 +1,5 @@
 # Akan-Name
+The naming system of Akan people.
 ## Author
 Ngetich Gideon
 
